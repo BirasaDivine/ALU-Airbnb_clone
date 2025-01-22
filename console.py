@@ -33,7 +33,7 @@ class HBNBCommand(cmd.Cmd):
 
     def emptyline(self):
         """
-        An empty line + ENTER shouldn't execute anything
+        An empty line + ENTER or an empty line with spaces + ENTER shouldn't execute anything
         """
         pass
 
@@ -188,3 +188,4 @@ class HBNBCommand(cmd.Cmd):
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
+
